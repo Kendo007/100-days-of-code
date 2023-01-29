@@ -1,3 +1,7 @@
+header {
+    margin-bottom: 64px;
+}
+
 h1 {
     font-size: 48px;
     color: rgb(71, 62, 62);
@@ -24,4 +28,21 @@ li {
     padding: 16px;
     width: 500px;
     border-radius: 6px;
+}
+
+header p {
+    margin-bottom: 36px;
+}
+
+h2 {
+    color: rgb(78, 13, 5);
+}
+
+main p {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+}
+
+.highlighted-goals {
+    background-color: rgb(226, 115, 101);
 }
