@@ -3,7 +3,6 @@
     background-image: url("../images/places/ocean.jpg");
     background-position: center;
     background-size: cover;
-     
 } 
 
 #hero div {
@@ -46,4 +45,49 @@
 
 #hero div a:hover {
     background-color: rgb(225, 238, 0);
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
+
+#Destinations {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.destination strong {
+    color: rgb(0, 160, 117);
 }
